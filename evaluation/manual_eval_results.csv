@@ -1,0 +1,11 @@
+question,expected_sources,retrieved_sources,source_hit,score
+What GenAI bootcamp and AI workshop experience does the candidate have for non-technical founders and students?,hike_case_study.md|application_examples.md,application_examples.md|career_goals.md|cv_summary.md|hike_case_study.md|skills_inventory.md,True,1.0
+What are the strongest proof points for a creative technologist role?,ctrl_alt_deity_case_study.md|skills_inventory.md,application_examples.md|career_goals.md|career_principles.md|ctrl_alt_deity_case_study.md|cv_summary.md|farout_case_study.md,False,0.5
+What project management and programme coordination experience does the candidate have?,cv_summary.md,application_examples.md|career_goals.md|ctrl_alt_deity_case_study.md|cv_summary.md|skills_inventory.md,True,1.0
+What bootcamp curriculum design and participant facilitation work supports an instructional design application?,hike_case_study.md|application_examples.md,application_examples.md|giz_case_study.md|hike_case_study.md|skills_inventory.md,True,1.0
+"What AI tools has the candidate used professionally for image, video, and audio production?",skills_inventory.md,application_examples.md|ctrl_alt_deity_case_study.md|hike_case_study.md|skills_inventory.md,True,1.0
+"What participant numbers, follower growth, and funding outcomes show the impact of the candidate's work?",hike_case_study.md|cv_summary.md,application_examples.md|career_goals.md|cv_summary.md|hike_case_study.md,True,1.0
+What AI prompt library and Notion knowledge hub work has the candidate built for non-technical users?,hike_case_study.md|skills_inventory.md,application_examples.md|hike_case_study.md|skills_inventory.md,True,1.0
+What is the candidate's educational background in technology and AI?,education.md,application_examples.md|career_goals.md|career_principles.md|education.md,True,1.0
+What content strategy and community building work supports a marketing communications application?,application_examples.md,application_examples.md|education.md|giz_case_study.md|hike_case_study.md|skills_inventory.md,True,1.0
+What are the honest gaps in the candidate's technical skills and which role types are explicitly not being targeted?,career_goals.md|skills_inventory.md,application_examples.md|career_goals.md|career_principles.md|skills_inventory.md,True,1.0

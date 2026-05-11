@@ -13,10 +13,6 @@ vectorstore_private/
 st_out.log
 streamlit_startup.log
 
-# evaluation output files (change on every run, not source)
-evaluation/manual_eval_results.csv
-evaluation/ragas_results.csv
-
 # local development notes
 docs/review_prep.md
 docs/codebase_walkthrough.md

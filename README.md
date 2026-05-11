@@ -184,7 +184,7 @@ You need Python 3.10 or above and an OpenRouter API key.
 
 ```bash
 # clone and enter the project
-git clone <repo-url>
+git clone https://github.com/avi-ai-git/careerfit-rag-coach.git
 cd careerfit-rag-coach
 
 # create a virtual environment
