@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q01",
+    "question": "What GenAI bootcamp and AI workshop experience does the candidate have for non-technical founders and students?",
+    "expected_sources": ["hike_case_study.md", "application_examples.md"],
+    "expected_answer_theme": "GenAI bootcamp delivery, curriculum design, facilitation of AI literacy for non-technical learners",
+    "ground_truth": "The candidate designed and delivered the first English GenAI bootcamp in the state of Thuringia with 14 participants, facilitated 5 other AI education formats for 120+ total participants, and ran HIKEathon 2024 and 2025 coaching sessions for non-technical founders and students."
+  },
+  {
+    "id": "q02",
+    "question": "What are the strongest proof points for a creative technologist role?",
+    "expected_sources": ["ctrl_alt_deity_case_study.md", "skills_inventory.md"],
+    "expected_answer_theme": "Hands-on use of AI tools, generative media production, creative AI project delivery",
+    "ground_truth": "The candidate built a full-length AI short film selected for Artefact AI Film Festival Paris 2025, using Midjourney, Runway ML, ElevenLabs, and Adobe Premiere Pro, and has hands-on experience with 50+ AI tools documented in a structured prompt library."
+  },
+  {
+    "id": "q03",
+    "question": "What project management and programme coordination experience does the candidate have?",
+    "expected_sources": ["cv_summary.md"],
+    "expected_answer_theme": "Programme coordination, stakeholder management, cross-functional delivery",
+    "ground_truth": "The candidate has 4+ years of professional project management experience from TCS in Kolkata, covering agile delivery, stakeholder reporting, and cross-functional team coordination."
+  },
+  {
+    "id": "q04",
+    "question": "What bootcamp curriculum design and participant facilitation work supports an instructional design application?",
+    "expected_sources": ["hike_case_study.md", "application_examples.md"],
+    "expected_answer_theme": "Bootcamp curriculum, learning program design, facilitation of AI literacy programs",
+    "ground_truth": "The candidate designed a 2-day GenAI bootcamp curriculum covering prompt engineering, tool selection, and AI workflow design, and delivered it to 14 participants with certificates issued. They also built the AI Bootcamp Prompt Engineering Knowledge Hub in Notion as a self-service resource."
+  },
+  {
+    "id": "q05",
+    "question": "What AI tools has the candidate used professionally for image, video, and audio production?",
+    "expected_sources": ["skills_inventory.md"],
+    "expected_answer_theme": "Named AI tools across image, video, audio, and creative production domains",
+    "ground_truth": "The candidate uses Claude, ChatGPT, Midjourney, Runway ML, ElevenLabs, Gemini, Perplexity, and 50+ other AI tools professionally across writing, research, image generation, video generation, audio, and coding assistance categories."
+  },
+  {
+    "id": "q06",
+    "question": "What participant numbers, follower growth, and funding outcomes show the impact of the candidate's work?",
+    "expected_sources": ["hike_case_study.md", "cv_summary.md"],
+    "expected_answer_theme": "120+ participants, €1.2M funding, LinkedIn and Instagram follower growth",
+    "ground_truth": "The candidate reached 120+ participants across 6 AI education formats over 14 months. The #hikemussbleiben advocacy campaign contributed to securing 1.2 million euros in public funding for the StarTH network. LinkedIn grew to 1000+ followers and Instagram to 800+."
+  },
+  {
+    "id": "q07",
+    "question": "What AI prompt library and Notion knowledge hub work has the candidate built for non-technical users?",
+    "expected_sources": ["hike_case_study.md", "skills_inventory.md"],
+    "expected_answer_theme": "50-tool prompt library, Notion-based knowledge hub, self-service reference system",
+    "ground_truth": "The candidate built a 50-tool AI prompt library in Notion covering writing, research, image generation, video, audio, coding, and productivity categories. This was delivered to bootcamp participants as the AI Bootcamp Prompt Engineering Knowledge Hub for self-service use after training ended."
+  },
+  {
+    "id": "q08",
+    "question": "What is the candidate's educational background in technology and AI?",
+    "expected_sources": ["education.md"],
+    "expected_answer_theme": "Degrees, certifications, and ongoing learning relevant to technology",
+    "ground_truth": "The candidate holds an M.Sc. in Media Informatics from RWTH Aachen University and a Digital Marketing Diploma from CareerFoundry. They have completed Anthropic Claude Certification and are currently completing the Turing College LLM Application Development course."
+  },
+  {
+    "id": "q09",
+    "question": "What content strategy and community building work supports a marketing communications application?",
+    "expected_sources": ["application_examples.md"],
+    "expected_answer_theme": "Content strategy, social media, community engagement, communication skills evidence",
+    "ground_truth": "The candidate grew an organization's LinkedIn to 1000+ followers and Instagram to 800+ followers, maintained a bilingual editorial calendar for 14 months, and produced the #hikemussbleiben advocacy campaign that contributed to securing 1.2 million euros in public funding."
+  },
+  {
+    "id": "q10",
+    "question": "What are the honest gaps in the candidate's technical skills and which role types are explicitly not being targeted?",
+    "expected_sources": ["career_goals.md", "skills_inventory.md"],
+    "expected_answer_theme": "Roles not targeted, technical depth limits, areas where evidence is thin",
+    "ground_truth": "The candidate explicitly does not target pure backend engineering, MLOps, production cloud infrastructure, or traditional marketing roles without an AI component. Technical depth in LangGraph multi-tool agent architecture and LangChain advanced features are listed as developing skills, not strong ones."
+  }
+]

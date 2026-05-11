@@ -1,0 +1,22 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# private data and built artifacts
+knowledge_base_private/
+vectorstore_demo/
+vectorstore_private/
+
+# generated files
+st_out.log
+streamlit_startup.log
+
+# evaluation output files (change on every run, not source)
+evaluation/manual_eval_results.csv
+evaluation/ragas_results.csv
+
+# local development notes
+docs/review_prep.md
+docs/codebase_walkthrough.md
