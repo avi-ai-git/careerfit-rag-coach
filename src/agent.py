@@ -32,7 +32,7 @@ def create_careerfit_agent(
     session. Without this, each call gets a fresh MemorySaver and the agent
     has no memory of previous turns at all.
 
-    MCP tools are only included when their flags are True. The mode parameter
+    Optional external tools are only included when their flags are True. The mode parameter
     controls whether find_job_listings is included -- it's suppressed in the
     three JD modes where the user already has a job description.
     """

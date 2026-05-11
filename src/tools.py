@@ -1,4 +1,4 @@
-# The four core career tools plus two optional MCP tools for company research
+# The four core career tools plus two optional external tools for company research
 # and job search. All four career tools share _search_impl so retrieval always
 # runs before any LLM call -- skipping retrieval was the original Sprint 1 gap.
 
@@ -6,7 +6,7 @@ from langchain_core.tools import tool
 
 from src.llm import get_llm
 from src.logger import get_logger
-from src.mcp_tools import search_company, search_jobs
+from src.external_tools import search_company, search_jobs
 from src.prompts import (
     JOB_FIT_PROMPT,
     APPLICATION_POSITIONING_PROMPT,
@@ -153,7 +153,7 @@ def get_tools(
 ):
     """Return the tool list for the agent.
 
-    Base 4 tools are always included. MCP tools are opt-in via sidebar toggles.
+    Base 4 tools are always included. Optional external tools are opt-in via sidebar toggles.
     find_job_listings is only added in Ask Career Base mode -- in the three JD modes
     the user has already pasted a job description, so searching for listings adds no value
     and confuses the agent about which tool to call.

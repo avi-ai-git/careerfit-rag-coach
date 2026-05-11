@@ -1,7 +1,6 @@
 # Two external data tools: DuckDuckGo for company context, Adzuna for live job listings.
 # Both are opt-in via sidebar toggles -- they make network calls on every agent turn,
 # which adds latency and can fail, so the default keeps them off.
-# Note: "mcp" in the filename is informal project naming, not Anthropic's Model Context Protocol.
 # These are plain HTTP tools passed directly into the LangGraph agent's tool list.
 
 import os
@@ -10,7 +9,7 @@ import requests
 
 from src.logger import get_logger
 
-_log = get_logger("careerfit.mcp")
+_log = get_logger("careerfit.external")
 
 
 def search_company(company_name: str) -> str:
@@ -144,9 +143,4 @@ def search_jobs(job_title: str, location: str = "Berlin") -> str:
 if __name__ == "__main__":
     # load_dotenv so ADZUNA keys are available when running this file directly
     from dotenv import load_dotenv
-    load_dotenv()
-
-    print("--- Company search test (Zalando) ---")
-    print(search_company("Zalando"))
-    print("\n--- Job search test ---")
-    print(search_jobs("AI Content Strategist"))
+    load_dote

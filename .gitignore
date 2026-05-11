@@ -17,6 +17,17 @@ streamlit_startup.log
 evaluation/manual_eval_results.csv
 evaluation/ragas_results.csv
 
-# local development notes
+# local development notes -- never commit these
 docs/review_prep.md
 docs/codebase_walkthrough.md
+docs/sprint2_course_mapping.html
+
+# development tooling and AI assistant files -- never commit these
+.claude/
+CLAUDE.md
+docs/claude_code_prompt.md
+docs/claude_code_ragas_prompt.md
+
+# development artifact HTML files
+careerfit_full_architecture.html
+careerfit_luca_review_prep.html
