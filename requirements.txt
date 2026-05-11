@@ -25,7 +25,7 @@ langgraph==1.1.10
 # --- Vector store and embeddings ---
 chromadb==1.5.9
 sentence-transformers==5.4.1
-protobuf==5.29.4
+protobuf==4.25.3
 
 # --- Cost tracking ---
 tiktoken==0.12.0
